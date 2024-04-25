@@ -14,7 +14,6 @@ public class Jogador extends Pessoas {
         ArrayList<Jogador> participantes = cadastrarParticipantes();
 
         Scanner scanner = new Scanner(System.in);
-        System.out.println("Digite.");
         System.out.println("Em quem você vota?");
 
         while (true) {
