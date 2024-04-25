@@ -29,7 +29,7 @@ public class Jogador extends Pessoas {
         Pessoas eliminado = encontrarEliminado(participantes);
         if (eliminado != null) {
 
-            System.out.println(eliminado.getVotos() + " votos, pessoa que saiu " + eliminado.getNome());
+            System.out.println(" pessoa que saiu " + eliminado.getNome());
         }
     }
 

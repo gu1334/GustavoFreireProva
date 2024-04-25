@@ -17,8 +17,7 @@ public class ContagemVotosBBBGUI {
 
         Jogador eliminado = encontrarEliminado(participantes);
         if (eliminado != null) {
-            String mensagemEliminacao =
-                    eliminado.getVotos() + " votos, pessoa que saiu: " + eliminado.getNome();
+            String mensagemEliminacao = " pessoa que saiu: " + eliminado.getNome();
             JOptionPane.showMessageDialog(null, mensagemEliminacao);
         }
     }
